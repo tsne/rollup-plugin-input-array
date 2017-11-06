@@ -1,0 +1,31 @@
+{
+  "name": "rollup-plugin-input-array",
+  "version": "1.0.0",
+  "description": "A small rollup plugin for handling multiple inputs.",
+  "main": "dist/rollup-plugin-input-array.cjs.js",
+  "module": "dist/rollup-plugin-input-array.es.js",
+  "jsnext:main": "dist/rollup-plugin-input-array.es.js",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "keywords": [
+    "rollup",
+    "rollup-plugin"
+  ],
+  "scripts": {
+    "prebuild": "rm -rf dist/*",
+    "build": "rollup -c",
+    "prepublishOnly": "npm run build"
+  },
+  "author": "tsne",
+  "license": "MIT",
+  "homepage": "https://github.com/tsne/rollup-plugin-input-array",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tsne/rollup-plugin-input-array.git"
+  },
+  "devDependencies": {
+    "rollup": "^0.50.0"
+  }
+}
