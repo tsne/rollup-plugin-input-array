@@ -26,6 +26,6 @@
     "url": "git+https://github.com/tsne/rollup-plugin-input-array.git"
   },
   "devDependencies": {
-    "rollup": "^0.50.0"
+    "rollup": "^0.54.0"
   }
 }
