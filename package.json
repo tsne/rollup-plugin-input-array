@@ -1,6 +1,6 @@
 {
   "name": "rollup-plugin-input-array",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A small rollup plugin for handling multiple inputs.",
   "main": "dist/rollup-plugin-input-array.cjs.js",
   "module": "dist/rollup-plugin-input-array.es.js",
